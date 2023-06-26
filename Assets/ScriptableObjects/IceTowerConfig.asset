@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c2485aa634b3cd4693af23806144fb3, type: 3}
+  m_Name: IceTowerConfig
+  m_EditorClassIdentifier: 
+  _towerProperties:
+  - _typeTower: 2
+    _towerLevel: 1
+    _attackDamage: 5
+    _attackSpeed: 20
+    _attackRange: 3
+    _AOEDamage: 0
+    _towerDamageEffects: 1
+    _buildCost: 150
+    _sellCost: 100
+  - _typeTower: 2
+    _towerLevel: 2
+    _attackDamage: 10
+    _attackSpeed: 25
+    _attackRange: 3
+    _AOEDamage: 0
+    _towerDamageEffects: 1
+    _buildCost: 100
+    _sellCost: 200
+  - _typeTower: 2
+    _towerLevel: 3
+    _attackDamage: 15
+    _attackSpeed: 30
+    _attackRange: 3
+    _AOEDamage: 0
+    _towerDamageEffects: 1
+    _buildCost: 130
+    _sellCost: 300
+  - _typeTower: 2
+    _towerLevel: 4
+    _attackDamage: 20
+    _attackSpeed: 30
+    _attackRange: 4
+    _AOEDamage: 0
+    _towerDamageEffects: 1
+    _buildCost: 150
+    _sellCost: 350
+  - _typeTower: 2
+    _towerLevel: 5
+    _attackDamage: 25
+    _attackSpeed: 30
+    _attackRange: 4
+    _AOEDamage: 0
+    _towerDamageEffects: 1
+    _buildCost: 200
+    _sellCost: 400

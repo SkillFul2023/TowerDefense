@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31efd91f7b285a348a76023c8386de04, type: 3}
+  m_Name: WavesConfiguration_2
+  m_EditorClassIdentifier: 
+  _wavesProperties:
+  - _countMobsInWave: 5
+    _countRespaunMobInSec: 1
+    _waveNumber: 1
+    _mobType: 2
+  - _countMobsInWave: 30
+    _countRespaunMobInSec: 2
+    _waveNumber: 2
+    _mobType: 0
+  - _countMobsInWave: 5
+    _countRespaunMobInSec: 0.1
+    _waveNumber: 3
+    _mobType: 4
+  - _countMobsInWave: 8
+    _countRespaunMobInSec: 1
+    _waveNumber: 4
+    _mobType: 7
+  - _countMobsInWave: 20
+    _countRespaunMobInSec: 1.2
+    _waveNumber: 5
+    _mobType: 8
+  - _countMobsInWave: 30
+    _countRespaunMobInSec: 0.5
+    _waveNumber: 6
+    _mobType: 9
+  - _countMobsInWave: 10
+    _countRespaunMobInSec: 4
+    _waveNumber: 7
+    _mobType: 10
+  - _countMobsInWave: 1
+    _countRespaunMobInSec: 4
+    _waveNumber: 8
+    _mobType: 0

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97939379586418749972609048d00f17, type: 3}
+  m_Name: MobConfiguration
+  m_EditorClassIdentifier: 
+  _typeMob:
+  - _mobType: 0
+    _mobProperties:
+      _mobModel: {fileID: 2638630218820341623, guid: 669e44f503904f947973ecfbb68e6b80, type: 3}
+      _armorMobType: 0
+      _mobHealth: 20
+      _moveSpeedMob: 1
+      _countGoldForMurder: 10
+  - _mobType: 1
+    _mobProperties:
+      _mobModel: {fileID: 1305925295754596084, guid: 613305d0d86c82e43949822ac2d3d13b, type: 3}
+      _armorMobType: 0
+      _mobHealth: 40
+      _moveSpeedMob: 1
+      _countGoldForMurder: 15
+  - _mobType: 2
+    _mobProperties:
+      _mobModel: {fileID: 6887959720648937607, guid: ffff33a2624f4ec4ab9addea03687bf3, type: 3}
+      _armorMobType: 1
+      _mobHealth: 50
+      _moveSpeedMob: 1
+      _countGoldForMurder: 20
+  - _mobType: 3
+    _mobProperties:
+      _mobModel: {fileID: 1439512462159597446, guid: 70c20326daeed204dafaa26732bcbc35, type: 3}
+      _armorMobType: 2
+      _mobHealth: 80
+      _moveSpeedMob: 1
+      _countGoldForMurder: 25
+  - _mobType: 4
+    _mobProperties:
+      _mobModel: {fileID: 3629546171192458127, guid: 74e7b4914ecb69b41ac7ff1212835ebe, type: 3}
+      _armorMobType: 2
+      _mobHealth: 200
+      _moveSpeedMob: 1
+      _countGoldForMurder: 40
+  - _mobType: 5
+    _mobProperties:
+      _mobModel: {fileID: 972063662651025330, guid: 6bcb0eed1280e3745add3df17ae9b22e, type: 3}
+      _armorMobType: 0
+      _mobHealth: 120
+      _moveSpeedMob: 1
+      _countGoldForMurder: 20
+  - _mobType: 6
+    _mobProperties:
+      _mobModel: {fileID: 3119360155733724075, guid: 5256254b4ad31bf4f9d8551a59075d0a, type: 3}
+      _armorMobType: 1
+      _mobHealth: 150
+      _moveSpeedMob: 1
+      _countGoldForMurder: 30
+  - _mobType: 7
+    _mobProperties:
+      _mobModel: {fileID: 7724943330264092214, guid: ba10533b5e8285243b2bd89cb089544c, type: 3}
+      _armorMobType: 2
+      _mobHealth: 100
+      _moveSpeedMob: 1
+      _countGoldForMurder: 40
+  - _mobType: 8
+    _mobProperties:
+      _mobModel: {fileID: 1671022654439884953, guid: cc516a1b6a7b6304594a624c8750dd06, type: 3}
+      _armorMobType: 1
+      _mobHealth: 140
+      _moveSpeedMob: 1
+      _countGoldForMurder: 30
+  - _mobType: 9
+    _mobProperties:
+      _mobModel: {fileID: 4705249056299587607, guid: a50b1140a6796f343a2e8e3d005896b1, type: 3}
+      _armorMobType: 1
+      _mobHealth: 200
+      _moveSpeedMob: 1
+      _countGoldForMurder: 50
+  - _mobType: 10
+    _mobProperties:
+      _mobModel: {fileID: 5322411423228032607, guid: 4bcd313747c6edd408a4629ae97cd31d, type: 3}
+      _armorMobType: 2
+      _mobHealth: 600
+      _moveSpeedMob: 1
+      _countGoldForMurder: 150

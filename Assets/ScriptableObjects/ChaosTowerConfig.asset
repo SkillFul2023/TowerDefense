@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c2485aa634b3cd4693af23806144fb3, type: 3}
+  m_Name: ChaosTowerConfig
+  m_EditorClassIdentifier: 
+  _towerProperties:
+  - _typeTower: 4
+    _towerLevel: 1
+    _attackDamage: 20
+    _attackSpeed: 30
+    _attackRange: 3
+    _AOEDamage: 0
+    _towerDamageEffects: 0
+    _buildCost: 200
+    _sellCost: 100
+  - _typeTower: 4
+    _towerLevel: 2
+    _attackDamage: 40
+    _attackSpeed: 35
+    _attackRange: 3
+    _AOEDamage: 0
+    _towerDamageEffects: 0
+    _buildCost: 150
+    _sellCost: 150
+  - _typeTower: 4
+    _towerLevel: 3
+    _attackDamage: 45
+    _attackSpeed: 45
+    _attackRange: 3
+    _AOEDamage: 0
+    _towerDamageEffects: 0
+    _buildCost: 180
+    _sellCost: 250
+  - _typeTower: 4
+    _towerLevel: 4
+    _attackDamage: 50
+    _attackSpeed: 45
+    _attackRange: 4
+    _AOEDamage: 0
+    _towerDamageEffects: 0
+    _buildCost: 200
+    _sellCost: 250
+  - _typeTower: 4
+    _towerLevel: 5
+    _attackDamage: 60
+    _attackSpeed: 45
+    _attackRange: 5
+    _AOEDamage: 0
+    _towerDamageEffects: 0
+    _buildCost: 300
+    _sellCost: 250

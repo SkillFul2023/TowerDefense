@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WavesConfiguration
   m_EditorClassIdentifier: 
   _wavesProperties:
-  - _countMobsInWave: 20
+  - _countMobsInWave: 10
     _countRespaunMobInSec: 1.5
     _waveNumber: 1
     _mobType: 0

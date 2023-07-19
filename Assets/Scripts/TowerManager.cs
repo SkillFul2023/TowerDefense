@@ -82,7 +82,6 @@ namespace TowerDefense
         private void LateUpdate()
         {
             _towerInterface.transform.LookAt(new Vector3(_camera.transform.position.x, _camera.transform.position.y, _camera.transform.position.z));
-            //transform.Rotate(0, 180, 0);
         }
         public IEnumerator UpgradeTower()
         {
@@ -133,6 +132,15 @@ namespace TowerDefense
             {
                 _towerInterfaceOn = !_towerInterfaceOn;
                 _towerInterface.gameObject.SetActive(_towerInterfaceOn);
+                if (_towerInterfaceOn == true)
+                {
+                    _uIManager.SelectTowerForInfo = gameObject;
+                }
+                else
+                {
+                    _uIManager.SelectTowerForInfo = null;
+                }
+                
             }
         }
         public void UpdateTowerProperties(int towerLevel)

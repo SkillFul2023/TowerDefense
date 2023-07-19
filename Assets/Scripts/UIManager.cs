@@ -18,6 +18,7 @@ namespace TowerDefense
         [SerializeField] private GameObject _originalTower_5;
         [Space, SerializeField] private GameObject _selectTowerTemplate;
         [SerializeField] private GameObject _selectTowerForBuild;
+        [SerializeField] private GameObject _selectTowerForInfo;
         [SerializeField] private bool _buildTowerOn;
         [SerializeField] private GameObject[] _checkTowers;
         [Space, SerializeField] public GameManager _gameManager;
@@ -35,6 +36,7 @@ namespace TowerDefense
         [SerializeField] private TMP_Text _costTower_3;
         [SerializeField] private TMP_Text _costTower_4;
         [SerializeField] private TMP_Text _costTower_5;
+        [SerializeField] private GameObject _towerInfoPanel;
 
         public bool GetBuildTowerOn
         {
@@ -48,6 +50,13 @@ namespace TowerDefense
         {
             get => _selectTowerForBuild;
         }
+
+        public GameObject SelectTowerForInfo
+        {
+            get => _selectTowerForInfo;
+            set => _selectTowerForInfo = value;
+        }
+
         private void Awake()
         {
             _gameManager = FindObjectOfType<GameManager>();
@@ -73,6 +82,15 @@ namespace TowerDefense
         private void Update()
         {
             UpdatePlayerStats();
+
+            if (_selectTowerForInfo != null)
+            {
+                _towerInfoPanel.SetActive(true);
+            }
+            else
+            {
+                _towerInfoPanel.SetActive(false);
+            }
         }
         public void OnCreateArrowTowerForBuild_EditorEvent()
         {
